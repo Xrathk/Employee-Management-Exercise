@@ -1,0 +1,48 @@
+﻿@using IndeavorTest.Models;
+@model ViewModel
+
+@{
+    ViewData["Title"] = "Employee Skills";
+}
+
+<h1>Skill Addition/Removal Screen</h1>
+<br />
+<h3>List of Available Skills</h3>
+
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <b>Name</b>
+            </th>
+            <th>
+                <b>Description</b>
+            </th>
+        </tr>
+    </thead>
+        <tbody>
+            @foreach (var item in Model.Skills)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+</table>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div>
+    |
+    <a asp-action="Index">Back to Employee list</a>
+</div>
