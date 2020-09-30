@@ -10,7 +10,7 @@ Not included yet:
 - Ability to add skills to employees in the database (views almost complete though)
 - Additional functions like exporting to spreadsheets etc
 
-__Όνομα:__ Χρήστος - Θρασύβουλος Κούλης <br/>
+__Όνομα:__ Χρήστος - Θρασύβουλος <br/>
 __Επίθετο:__ Κούλης <br/>
 __Κινητό:__ 6973366654
 
